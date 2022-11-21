@@ -1,5 +1,5 @@
 import React from "react";
-import { LinkedIn } from "@material-ui/icons";
+import { Email, LinkedIn } from "@material-ui/icons";
 import { GitHub } from "@material-ui/icons";
 import "../styles/Home.css";
 
@@ -22,6 +22,9 @@ function Home() {
 					</a>
 					<a href="https://github.com/yeasirh" target="_blank" rel="noreferrer">
 						<GitHub />
+					</a>
+					<a href="mailto:yeasirh@gmail.com">
+						<Email />
 					</a>
 				</div>
 			</div>
@@ -58,13 +61,6 @@ function Home() {
 						<span>AWS, Netlify</span>
 					</li>
 				</ol>
-			</div>
-
-			<div className="skills">
-				<h2>Contact me:</h2>
-				<span>
-					<b>Email:</b> yeasirh@gmail.com
-				</span>
 			</div>
 		</div>
 	);

@@ -18,7 +18,9 @@ function Footer() {
 				<a href="https://github.com/yeasirh" target="_blank" rel="noreferrer">
 					<GitHub />
 				</a>
-				<Email />
+				<a href="mailto:yeasirh@gmail.com">
+					<Email />
+				</a>
 				<p>&copy; 2022 yeasirh.me</p>
 			</div>
 		</div>
