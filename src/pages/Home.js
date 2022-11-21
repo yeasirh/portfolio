@@ -1,6 +1,5 @@
 import React from "react";
 import { LinkedIn } from "@material-ui/icons";
-import { Email } from "@material-ui/icons";
 import { GitHub } from "@material-ui/icons";
 import "../styles/Home.css";
 
@@ -14,10 +13,14 @@ function Home() {
 						A software developer, with passion for learning new skills and
 						building new things.
 					</p>
-					<a href="https://www.linkedin.com/in/yeasirh/" target="_blank">
+					<a
+						href="https://www.linkedin.com/in/yeasirh/"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<LinkedIn />
 					</a>
-					<a href="https://github.com/yeasirh" target="_blank">
+					<a href="https://github.com/yeasirh" target="_blank" rel="noreferrer">
 						<GitHub />
 					</a>
 				</div>
